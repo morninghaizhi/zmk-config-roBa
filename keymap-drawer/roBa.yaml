@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RSHIFT}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
