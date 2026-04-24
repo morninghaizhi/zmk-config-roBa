@@ -28,19 +28,19 @@ layers:
   - C
   - V
   - B
-  - ':'
+  - LANG1
   - ;
   - N
   - M
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - LCTRL
-  - LEFT WIN
+  - LEFT GUI
   - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
+  - TAB
+  - {t: '&to_layer_0 LEFT_CONTROL', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: '&to_layer_0 LANG2', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
