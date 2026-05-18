@@ -38,7 +38,7 @@ layers:
   - LEFT GUI
   - LEFT ALT
   - TAB
-  - {t: '&to_layer_0 LEFT_CONTROL', h: '6'}
+  - {t: ESC, h: LEFT CONTROL}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 LANG2', h: ARROW}
   - BACKSPACE
@@ -195,9 +195,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,3 +319,7 @@ combos:
   k: '"'
 - p: [24, 25]
   k: '='
+- p: [18, 19]
+  k: ''
+- p: [19, 20]
+  k: ''
