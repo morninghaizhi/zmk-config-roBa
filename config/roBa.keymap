@@ -26,6 +26,15 @@
 };
 
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        bt_layer {
+            if-layers = <1 2>;
+            then-layer = <6>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
